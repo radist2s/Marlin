@@ -1,5 +1,15 @@
 # Marlin 3D Printer Firmware
 
+### Configuration: Flyingbear Ghost 4
+#### Configuration defaults:
+* TMC2209 UART XYZE drivers via Hardware Serial [Serial2 -- AUX-4 Pin 18 (D16 TX2) and AUX-4 Pin 17 (D17 RX2)] [X,Y,Z,E0_SLAVE_ADDRESS 0,1,2,3]
+  [driver installation reference #1](https://3deshnik.ru/wiki/index.php/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80_TMC2209)
+  [driver installation reference #2](https://sergey1560.github.io/fb4s_howto/tmc_uart/)
+  [driver installation with software serial](https://www.youtube.com/watch?v=dOJbSrWVu_Q&t=692s)
+* BLTouch [Z_MIN_PROBE_PIN 19]
+* BMG Direct extruder [Steps per unit 415]
+* Z screw changed [Steps per unit 1600]
+
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
